@@ -1,0 +1,7 @@
+ways to do it 
+
+load entire file then use the regex to insert at the correct position
+    not ideal for large files due to memory intensive 
+    leads to performance issues
+
+load file in chunks using streams 
