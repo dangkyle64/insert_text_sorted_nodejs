@@ -5,7 +5,7 @@ const readline = require('readline');
 // logs the text data line read from the test file on success
 // logs an error message on failure
 function readFileByLine() {
-    const fileStream = fs.createReadStream('edit_this_file.rpy', 'utf8');
+    const fileStream = fs.createReadStream('edit-this-file.rpy', 'utf8');
 
     const rl = readline.createInterface({
         input: fileStream,

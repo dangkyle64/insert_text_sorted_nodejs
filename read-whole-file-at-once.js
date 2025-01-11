@@ -5,7 +5,7 @@ const path = require('path');
 // logs the text data read from the test file on success, logging it into the console
 // logs an error message in the console on failure to read from file 
 function readWholeFileAtOnce(pathToFile) {
-    fs.readFile('./edit_this_file.rpy', 'utf8', (error, data) => {
+    fs.readFile('./edit-this-file.rpy', 'utf8', (error, data) => {
         if (error) {
             console.error('Error reading file:', error);
             return;
